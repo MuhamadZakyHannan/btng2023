@@ -1,0 +1,54 @@
+/* element selector */
+body{
+  background-color: yellow;
+  background-image: url(https://hypeabis.id/assets/content/20230304092309000000F41467C8C3D9466F8E8CA7B06F5E8108.jpeg) ;
+  background-repeat: no-repeat;
+  background-size: 500%;
+}
+
+#Judul{
+  font-weight: 800;
+  color: brown;
+  text-align: center;
+}
+
+.subjudul{
+  color: plum;
+  vertical-align: bottom;
+  text-decoration:underline;
+  text-transform: uppercase;
+}
+
+.konten{
+  color: pink;
+  text-shadow: 2px 2px 5px blue;
+}
+
+.p1, .p3{
+  color: yellow;
+  background-color: blue;
+  padding: auto;
+  margin: auto ;
+}
+.link:hover{
+  background-color: black;
+  color: aliceblue;
+
+}
+
+.box{
+  background-color: blue;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.box, .content{
+  border: 1px solid blue;
+  color: yellow;
+  background-color: green;
+}
+
+.box p{
+  color: aliceblue;
+}
